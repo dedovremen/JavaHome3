@@ -3,11 +3,6 @@ public class Address {
     private String Street;
     private int HouseNumber;
 
-    public Address (String City, String Street, int HouseNumber) {
-        this.City = City;
-        this.Street = Street;
-        this.HouseNumber = HouseNumber;
-    }
 
     public String getCity() {
         return City;

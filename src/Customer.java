@@ -2,7 +2,7 @@ public class Customer {
     private String FirstName;
     private String LastName;
     public String PhoneNumber;
-    private Address FullAddress;
+    private Address FullAddress = new Address();
 //    private String City;
 //    private String Street;
 //    private int HouseNumber;
@@ -11,7 +11,7 @@ public class Customer {
         this.FirstName = FirstName;
         this.LastName = LastName;
         this.PhoneNumber = PhoneNumber;
-        FullAddress.setCity(CityName);
+        this.FullAddress.setCity(CityName);
         this.FullAddress.setStreet(Street);
         this.FullAddress.setHouseNumber(HouseNumber);
 //        this.City = City;

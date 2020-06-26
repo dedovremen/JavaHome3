@@ -26,7 +26,7 @@ public class Main {
                 196);
 
 
-       /* Customer customers [] = new Customer[] {customer1, customer2, customer3};
+       Customer customers [] = new Customer[] {customer1, customer2, customer3};
         System.out.println("Customers: " + "\n");
         for (int i = 0; i < customers.length; i++){
             System.out.println(
@@ -36,7 +36,7 @@ public class Main {
             customer1.GetFullAddress();
 
 
-        }*/
+        }
 
     }
 }
